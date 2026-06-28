@@ -10,12 +10,10 @@ Most importantly this is a project that allowed me to understand steady-state he
 I'm adding also draft of my blog post where I'm going through all derivations. I'm writting all of it in my own free time, so it takes me a lot of time.
 
 My only hope is that all the equations are rigorous under this list of assumptions:
-	\begin{enumerate}
-       	\item Steady-state operation (both mass and energy).
-		\item The change in kinetic and potential energy is negligible.
-		\item The flow is turbulent and pipes are full of liquid.
-		\item The fluid in question is incompressible.
-		\item The specific heat capacity is constant.
-		\item No axial heat transfer.
-		\item Piping is horizontal and enclosed by air only at ambient pressure.
-	\end{enumerate}
+1. Steady-state operation (both mass and energy).
+2. The change in kinetic and potential energy is negligible.
+3. The flow is turbulent and pipes are full of liquid.
+4. The fluid in question is incompressible.
+5. The specific heat capacity is constant.
+6. No axial heat transfer.
+7. Piping is horizontal and enclosed by air only at ambient pressure.
