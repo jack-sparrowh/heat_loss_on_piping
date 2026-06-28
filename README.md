@@ -1,4 +1,6 @@
-# heat_loss_on_piping
+# Heat Loss on Piping
+This is mostly placeholder, working, but still.
+
 Code calculating heat loss (or gain) of liquid flowing at constant mass flow rate through insulated (or not) piping.
 
 The code was prepared to run inside excels implementation of python IDE, that is meant to be utilized inside company I'm working for (who knows if it will). Because of that I had to use partials to load all the functions with the data after user specifies them.
