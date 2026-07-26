@@ -15,7 +15,10 @@ My only hope is that all the equations are rigorous under this list of assumptio
 1. Steady-state operation (both mass and energy).
 2. The change in kinetic and potential energy is negligible.
 3. The flow is turbulent and pipes are full of liquid.
-4. The fluid in question is incompressible.
+4. The fluid is incompressible.
 5. The specific heat capacity is constant.
-6. No axial heat transfer.
-7. Piping is horizontal and enclosed by air only at ambient pressure.
+6. Fluid is loosing energy to surroundings.
+7. No axial heat transfer.
+8. Uniform heat transfer distribution in piping cross section.
+9. Piping is horizontal and enclosed by air only.
+10. Air around piping is at ambient pressure.
