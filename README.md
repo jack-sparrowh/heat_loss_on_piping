@@ -1,4 +1,8 @@
 # Heat Loss on Piping
+
+It turned out, that my assumptions about integration were completely wrong :)
+I'm currently working on solution. I have a working one already.
+
 This is mostly placeholder, working, but still.
 
 Code calculating heat loss (or gain) of liquid flowing at constant mass flow rate through insulated (or not) piping.
