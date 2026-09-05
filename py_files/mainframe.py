@@ -391,9 +391,6 @@ class Piping_Segment:
         threshold=0.01
     ):
         
-        # initiate by finding inlet surface temperature
-        self.find_inlet_surface_temperature()
-        
         # calculate constant temperature solar flux
         self.const_temp_sol_flux = self.h_comb_func(self.inlet_surface_temperature) \
                                     * (self.inlet_surface_temperature - self.ambient_temperature)
