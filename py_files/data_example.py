@@ -27,11 +27,6 @@ def user_table_example():
         [3, 2.8, 0.5, 831],
         [2, 1.8, 0.5, 63]
     ])
-    
-    # user_table_raw_1 = pd.DataFrame(user_array_1, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
-    # user_table_raw_2 = pd.DataFrame(user_array_2, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
-    # user_table_raw_3 = pd.DataFrame(user_array_3, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
-    # user_table = pd.DataFrame(user_array, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
 
     return [user_array_1, user_array_2, user_array_3, user_array_imperial, user_array_si]
 

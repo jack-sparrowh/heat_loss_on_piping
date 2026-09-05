@@ -33,32 +33,6 @@ def user_table_prepare(user_table, units):
     
     return prep_user_table
     
-# def usr_expand_table(user_table, units):
-#     
-#     '''
-#     Extend prepared user table by cumulative length, and handle length units.
-# 
-#     Parameters
-#     ----------
-#     user_table: pd.DataFrame
-#         User table []
-#     units: str
-#         Either "SI" or "Imperial" []
-#     
-#     Returns
-#     -------
-#     ext_prep_user_table: pd.DataFrame
-#         Extended User Table.
-#     '''
-#     
-#     prep_user_table = usr_prepare_table(user_table, units)
-#     
-#     if units.lower() == 'si':
-#         prep_user_table.loc[:, 'segment_length'] = prep_user_table.loc[:, 'segment_length'] * 1 / 0.3048 # 1 ft = 0.3048 m
-# 
-#     ext_prep_user_table = prep_user_table.copy()
-#     return ext_prep_user_table
-    
 def prop_table_prepare(properties_table):
     
     '''
