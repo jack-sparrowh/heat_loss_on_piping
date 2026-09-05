@@ -16,18 +16,24 @@ def user_table_example():
         [4, 3.8, 0.1, 2000]
     ])
     
-    user_array = np.array([
-        [4, 3.8, 0.5, 276],
+    user_array_imperial = np.array([
+        [4, 3.8, 0.5, 831],
+        [3, 2.8, 0.5, 2727],
+        [2, 1.8, 0.5, 207]
+    ])
+
+    user_array_si = np.array([
+        [4, 3.8, 0.5, 253],
         [3, 2.8, 0.5, 831],
-        [2, 1.8, 0.5, 137]
+        [2, 1.8, 0.5, 63]
     ])
     
-    user_table_raw_1 = pd.DataFrame(user_array_1, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
-    user_table_raw_2 = pd.DataFrame(user_array_2, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
-    user_table_raw_3 = pd.DataFrame(user_array_3, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
-    user_table = pd.DataFrame(user_array, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
+    # user_table_raw_1 = pd.DataFrame(user_array_1, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
+    # user_table_raw_2 = pd.DataFrame(user_array_2, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
+    # user_table_raw_3 = pd.DataFrame(user_array_3, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
+    # user_table = pd.DataFrame(user_array, columns=['pipe_outer_diameter', 'pipe_inner_diameter', 'insulation_thickness', 'segment_length'])
 
-    return [user_table_raw_1, user_table_raw_2, user_table_raw_3, user_table]
+    return [user_array_1, user_array_2, user_array_3, user_array_imperial, user_array_si]
 
 def properties_table_example():
 
@@ -47,7 +53,7 @@ def properties_table_example():
         ])
 
     properties_table_si = pd.Series(
-        [1800, 68, 60, 9.7, 0.025, 24155, 1, 50, 1], 
+        [982, 20, 340, 16.8, 0.043, 10942, 4.2, 157.7, 1], 
         index=[
             'inlet_temperature', 
             'ambient_temperature', 
